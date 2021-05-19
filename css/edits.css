@@ -1,0 +1,48 @@
+/*adiciones generales al la hoja de estilos principales*/
+
+.contenedor{
+    background: #E1DFDF;
+    display: block;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+body.dark .contenedor{
+    background: #313131;
+    display: block;
+    margin-top: 50px;
+    border-radius: 5px;    
+}
+
+
+hr{
+	color: #f8b500;
+	background-color: #FFFFFF;
+	height: 5px;
+	border:none;
+	margin: 15px;
+}
+
+p{
+	padding: 15px;
+}
+
+body.dark p{
+	color: #FFFFFF;
+}
+
+body.dark hr{
+	background-color: #4D4D4D;
+}
+
+a{
+	opacity: 100%;
+}
+
+#switch{
+	opacity: 100%;
+}
+
+li{
+	list-style: none;
+}
