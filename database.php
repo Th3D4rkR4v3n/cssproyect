@@ -3,7 +3,7 @@ session_start();
 
 $server = 'localhost';
 $username = 'root';
-$password = 'TheDarkProdigy78'; 
+$password = ''; 
 $database = 'login_database'; 
 
 try {
